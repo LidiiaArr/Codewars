@@ -1,0 +1,11 @@
+//Grasshopper - Personalized Message
+//персонализированное приветствие 
+
+function greet (name, owner) {
+    if(name === owner){
+        return 'Hello boss';
+    }else{
+        return 'Hello guest';
+}
+}
+
